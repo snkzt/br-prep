@@ -1,0 +1,5 @@
+- gRPC server running
+- Client receiving response
+- HealthCheck working
+- Understood proto → generation → registration flow
+- Next: add real UserService proto
