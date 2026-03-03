@@ -1,0 +1,14 @@
+syntax = "proto3";
+package health;
+
+option go_package = "br-prep/proto";
+
+service HealthService {
+  rpc Check (HealthRequest) returns (HealthResponse);
+}
+
+message HealthRequest {}
+
+message HealthResponse {
+  string message = 1;
+}
